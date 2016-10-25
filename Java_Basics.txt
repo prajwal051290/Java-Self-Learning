@@ -1,0 +1,56 @@
+Understanding Java Basics:
+
+The Java Platform:
+
+1. Java Virtual Machine
+2. Java Application Programming Interface (API)
+
+As a platform-independent environment, the Java platform can be a bit slower than native code. However, advances in compiler and virtual machine technologies are bringing performance 
+close to that of native code without threatening portability.
+
+The Java programming language encourages good coding practices, and automatic garbage collection helps you avoid memory leaks. Its object orientation, its JavaBeans™ component 
+architecture, and its wide-ranging, easily extendible API let you reuse existing, tested code and introduce fewer bugs.
+
+Object Oriented Concepts:
+
+What Is an Object?
+An object is a software bundle of related state and behavior. Software objects are often used to model the real-world objects that you find in everyday life. 
+This lesson explains how state and behavior are represented within an object, introduces the concept of data encapsulation, and explains the benefits of designing your software 
+in this manner.
+
+What Is a Class?
+A class is a blueprint or prototype from which objects are created. This section defines a class that models the state and behavior of a real-world object. 
+It intentionally focuses on the basics, showing how even a simple class can cleanly model state and behavior.
+
+What Is Inheritance?
+Inheritance provides a powerful and natural mechanism for organizing and structuring your software. This section explains how classes inherit state and behavior from 
+their superclasses, and explains how to derive one class from another using the simple syntax provided by the Java programming language.
+
+What Is an Interface?
+An interface is a contract between a class and the outside world. When a class implements an interface, it promises to provide the behavior published by that interface. 
+This section defines a simple interface and explains the necessary changes for any class that implements it.
+
+What Is a Package?
+A package is a namespace for organizing classes and interfaces in a logical manner. Placing your code into packages makes large software projects easier to manage. 
+This section explains why this is useful, and introduces you to the Application Programming Interface (API) provided by the Java platform.
+
+Hiding internal state and requiring all interaction to be performed through an object's methods is known as data encapsulation — a fundamental principle of object-oriented programming.
+
+
+Bundling code into individual software objects provides a number of benefits, including:
+Modularity: The source code for an object can be written and maintained independently of the source code for other objects. Once created, an object can be easily passed around 
+inside the system.
+Information-hiding: By interacting only with an object's methods, the details of its internal implementation remain hidden from the outside world.
+Code re-use: If an object already exists (perhaps written by another software developer), you can use that object in your program. This allows specialists to 
+implement/test/debug complex, task-specific objects, which you can then trust to run in your own code.
+Pluggability and debugging ease: If a particular object turns out to be problematic, you can simply remove it from your application and plug in a different object as its replacement. 
+This is analogous to fixing mechanical problems in the real world. If a bolt breaks, you replace it, not the entire machine.
+
+In the Java programming language, each class is allowed to have one direct superclass, and each superclass has the potential for an unlimited number of subclasses.
+
+Implementing an interface allows a class to become more formal about the behavior it promises to provide. Interfaces form a contract between the class and the outside world, 
+and this contract is enforced at build time by the compiler. If your class claims to implement an interface, all methods defined by that interface must appear in its source code 
+before the class will successfully compile.
+
+If your variable stores a constant value, such as static final int NUM_GEARS = 6, the convention changes slightly, capitalizing every letter and separating subsequent words with 
+the underscore character.
